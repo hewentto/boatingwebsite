@@ -2,3 +2,6 @@
 h1,h2,h3,h4,h5,h6{
   background-color: #8C8048
 }
+#content{
+  max-width: 960px
+}
