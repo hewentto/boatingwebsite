@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css?family=IM+Fell+French+Canon+SC|Lato');
-@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda&family=Oswald:wght@500&display=swap');
+@import url("https://fonts.googleapis.com/css?family=IM+Fell+French+Canon+SC|Lato");
+@import url("https://fonts.googleapis.com/css2?family=Bodoni+Moda&family=Oswald:wght@500&display=swap");
 
 h1,
 h2,
@@ -8,7 +8,7 @@ h4,
 h5,
 h6 {
   background-color: #8C8048;
-  font-family: Lato
+  font-family: Lato;
 }
 #content {
   max-width: 960px;
@@ -30,20 +30,20 @@ main {
 }
 
 .home-headline-1,
-.home-headline-2{
-  padding: .2em;
+.home-headline-2 {
+  padding: 0.2em;
 }
 
 .home-headline-1,
 .home-headline-2,
-.home-headline-3{
+.home-headline-3 {
   line-height: 2em;
-  margin-bottom: -.5em;
+  margin-bottom: -0.5em;
   margin-top: 2em;
 }
 
 .home-paragraph-1,
-.home-paragraph-2{
-  padding:.2em
-  margin-top: .5em;
+.home-paragraph-2 {
+  padding: 0.2em;
+  margin-top: 0.5em;
 }
