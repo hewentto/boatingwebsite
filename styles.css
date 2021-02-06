@@ -29,9 +29,21 @@ main {
   background-color: white;
 }
 
-#home-headline-1,
-#home-headline-2{
-  padding: 1em;
-  font-size: 10em;
-  font-color: red;
+.home-headline-1,
+.home-headline-2{
+  padding: .2em;
+}
+
+.home-headline-1,
+.home-headline-2,
+.home-headline-3{
+  line-height: 2em;
+  margin-bottom: -.5em;
+  margin-top: 2em;
+}
+
+.home-paragraph-1,
+.home-paragraph-2{
+  padding:.2em
+  margin-top: .5em;
 }
