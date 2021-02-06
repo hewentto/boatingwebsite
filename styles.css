@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css?family=IM+Fell+French+Canon+SC|Lato');
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda&family=Oswald:wght@500&display=swap');
+
 h1,
 h2,
 h3,
@@ -5,11 +8,13 @@ h4,
 h5,
 h6 {
   background-color: #8C8048;
+  font-family: Lato
 }
 #content {
   max-width: 960px;
   margin: 0 auto;
   background-color: #2C6F93;
+  font-family: Oswald;
 }
 
 .home-paragraph-3 {
@@ -18,7 +23,15 @@ h6 {
 
 nav a {
   color: #8C8048;
+  font-size: 1.1em;
 }
 main {
   background-color: white;
+}
+
+#home-headline-1,
+#home-headline-2{
+  padding: 1em;
+  font-size: 10em;
+  font-color: red;
 }
