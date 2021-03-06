@@ -36,6 +36,7 @@
 .content2 {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-auto-rows: minmax(90px, auto);
   /* This is the parent of the activity 2 boxes. */
 }
 .red2 {
@@ -48,7 +49,8 @@
   width: 100px; 
   height: 100px; 
   background-color: green; 
-  grid-column:
+  grid-column: 2/3;
+  grid-row: 1/3;
 } 
 .yellow2 {
   width: 100px; 
